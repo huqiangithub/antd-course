@@ -19,7 +19,8 @@ export default {
                 path: '/helloworld',
                 component: 'Helloworld'
             },
-            { path: 'puzzlecards', component: './puzzlecards' },
+            { path: '/puzzlecards', component: './puzzlecards' },
+            { path: '/list', component: 'List' },
             {
                 path: '/dashboard',
                 routes: [
